@@ -5,7 +5,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #0d0d0e;
 }
 
 a {
@@ -206,13 +206,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Capture1.jpg") top center;
+  background: url("../img/c2.jpg") top center;
   background-size: cover;
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  /* background: rgba(13, 13, 14, 0.3); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -233,11 +233,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(48, 16, 231);
+  color: rgb(1, 0, 7);
 }
 
 #hero p {
-  color: #fff;
+  color: rgb(12, 12, 12);
   margin-bottom: 50px;
   margin-left: 70px;
   font-size: 26px;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #fff;
+  color: rgb(20, 116, 224);
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -279,7 +279,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #eef2f8;
 }
 
 .section-title {
